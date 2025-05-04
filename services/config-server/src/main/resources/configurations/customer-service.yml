@@ -1,0 +1,15 @@
+server:
+  port: 8090
+spring:
+  data:
+    mongodb:
+      username: bipul
+      password: bipul
+      host: localhost
+      port: 27017
+      database: customer
+      authentication-database: admin
+
+eureka:
+  instance:
+    prefer-ip-address: true
